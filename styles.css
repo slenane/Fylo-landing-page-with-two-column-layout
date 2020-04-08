@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+body {
+    max-width: 1440px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(243, 87%, 12%);
+}
+
+nav {
+    padding: 0 60px;
+    font-family: 'Raleway', sans-serif;
+}
+ 
+.brand {
+    max-width: 8rem;
+    transform: translateY(2rem);
+}
+
+.navbarRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbarRight a {
+    text-decoration: none;
+    padding: 0 1.3rem;
+    font-size: 1rem;
+    color: black;
+}
+
+header {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.headerImage {
+    max-width: 60%;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 87%, 12%);
+}
+
+.headerText p {
+    color: hsl(243, 87%, 12%);
+    font-size: 1.25rem;
+    padding-right: 5rem;
+}
+
+.headerInput {
+    width: 45%;
+    height: 2.1rem;
+    padding-left: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.headerInput::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+
+.headerButton {
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(224, 93%, 58%);
+    height: 2.5rem;
+    width: 30%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    -webkit-box-shadow: 0px 0px 9px -6px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px 0px 9px -6px rgba(0,0,0,0.85);
+    box-shadow: 0px 0px 9px -6px rgba(0,0,0,0.85);
+}
+
+.image-1 {
+    max-width: 100%;
+}
+
+.backgroundCurve {
+    background-image: url(./images/bg-curve-desktop.svg);
+    max-width: 100%;
+    height: 5rem;
+    margin-top: 10rem;
+}
+
+main .section-1 {
+    display: flex;
+    background-color: hsl(240, 75%, 98%);
+    padding: 60px;
+}
+
+h2 {
+    font-size: 2.8rem;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 87%, 12%);
+    margin-top: 0;
+}
+
+.mainParagraph {
+    font-size: 1.1rem;
+    color: hsl(243, 87%, 12%);
+    padding-right: 13rem;
+}
+
+.mainImage {
+    margin-top: 2rem;
+    max-width: 40%;
+}
+
+.hyperlink a {
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    font-size: 1.1rem;
+}
+
+.arrow {
+    width: 1.1rem;
+    transform: translateY(.2rem);
+}
+
+.card {
+    margin-top: 3rem;
+    background-color: white;
+    max-width: 40%;
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 9px -6px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px 5px 9px -6px rgba(0,0,0,0.85);
+    box-shadow: 0px 0px 9px -6px rgba(0,0,0,0.85);
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.quotes {
+    width: 1rem;
+    height: auto;
+}
+
+.quote {
+    margin-top: 0;
+    line-height: 1.8;
+    font-size: .95rem;
+}
+
+.testimonialText {
+    flex-direction: column;
+    line-height: 0.4;
+}
+
+.testimonialName {
+    font-size: 0.8rem;
+}
+
+.testimonialInfo {
+    font-size: 0.6rem;
+}
+
+.testimonialImage {
+    border-radius: 50%;
+    max-width: 12%;
+    margin-right: .5rem;
+    align-self: center;
+}
+
+.image-2 {
+    max-width: 100%;
+}
+
+.section-2 {
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    color: white;
+}
+
+.mainText-2 { 
+    max-width: 50%;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+}
+
+.mainText-2 p {
+    padding-right: 7rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    opacity: .8;
+}
+
+.form-2 {
+    display: flex;
+    justify-content: column;
+    margin-right: 3rem;    
+}
+
+.mainInput {
+    width: 28rem;
+    height: 2.1rem;
+    padding-left: 1rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.mainInput::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+
+.mainButton {
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(224, 93%, 58%);
+    height: 2.5rem;
+    width: 12rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 9px -6px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px 0px 9px -6px rgba(0,0,0,0.85);
+    box-shadow: 0px 0px 9px -6px rgba(0,0,0,0.85);
+}
+
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    max-width: 1440px;
+    padding: 8rem 8rem 1rem 5rem;
+}
+
+.footerBrand {
+    padding-left: 2.5rem;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    line-height: 2.5;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    opacity: .8;
+}
+
+#icon {
+    margin-right: 1rem;
+    color: white;
+    opacity: 1;
+}
+
+.socialMedia {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+}
+
+.container-4 {
+    transform: translateY(1rem);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 375px;
+    }
+
+    nav {
+        padding: 0 1rem;
+    }
+     
+    .brand {
+        max-width: 5rem;
+        transform: translateY(1rem);
+    }
+    
+    .navbarRight a {
+        padding: 0 .7rem;
+        font-size: .8rem;
+        transform: translateY(-0.5rem);
+    }
+
+    header {
+        flex-direction: column-reverse;
+        margin-top: 6rem;
+        padding: 0 1.5rem;
+        text-align: center;
+    }
+    
+    .headerImage {
+        max-width: 100%;
+    }
+    
+    h1 {
+        font-size: 1.6rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .headerText p {
+        font-size: 1rem;
+        padding-right: 0rem;
+    }
+    
+    .headerForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headerInput {
+        width: 94.5%;
+    }
+
+    .headerButton {
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+
+    .backgroundCurve {
+        background-image: url(./images/bg-curve-mobile.svg);
+        height: 2rem;
+        margin-top: 5rem;
+    }
+    
+    main .section-1 {
+        flex-direction: column-reverse;
+        padding: 0 1.5rem;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .mainParagraph {
+        text-align: start;
+        font-size: .9rem;
+        opacity: .8 ;
+        padding-right: 0rem;
+        margin-bottom: 1.8rem;
+    }
+    
+    .mainImage {
+        margin: 5rem 0;
+        max-width: 100%;
+    }
+    
+    .hyperlink a {
+        font-size: .8rem;
+    }
+    
+    .arrow {
+        width: .9rem;
+    }
+    
+    .card {
+        margin: 3rem auto;
+        max-width: 80%;
+        padding: .75rem 1.25rem;
+        text-align: start;
+    }
+    
+    .quote {
+        margin-top: 0;
+        line-height: 1.8;
+        font-size: .7rem;
+    }
+    
+    .testimonialText {
+        flex-direction: column;
+        line-height: 0.4;
+    }
+    
+    .testimonialName {
+        font-size: 0.6rem;
+    }
+    
+    .testimonialInfo {
+        font-size: 0.5rem;
+    }
+    
+    .testimonialImage {
+        max-width: 10%;
+   
+    }
+
+    .section-2 {
+        flex-direction: column;
+        padding: 0 2.5rem;
+        text-align: center;
+    }
+    
+    .mainText-2 { 
+        max-width: 100%;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+        margin-top: 4rem;
+    }
+    
+    .mainText-2 p {
+        padding-right: 0;
+        font-size: .9rem;
+        margin-bottom: 2rem;
+    }
+    
+    .form-2 {
+        margin-right: 0rem;    
+    }
+    
+    .mainInput {
+        width: 14rem;
+        margin-bottom: .5rem;
+        border: none;
+        border-radius: 0;
+    }
+    
+    .mainButton {
+        width: 15.4rem;
+        margin-bottom: 5rem;
+    }
+
+    footer {
+        max-width: 375px;
+        padding: 0;
+    }
+    
+    .footerBrand {
+        padding: 3rem 0 1.5rem 2rem;
+    }
+    
+    footer .container {
+        flex-direction: column;
+    }
+    
+    .socialMedia {
+        margin-right: 0px;
+        height: 30px;
+        width: 30px;
+    
+    }
+    
+    .container-4 {
+        text-align: center;
+        transform: translateY(0rem);
+        margin: 2rem auto;
+    }
+
+}
